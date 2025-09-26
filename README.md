@@ -25,7 +25,7 @@ Autonomous posting bot powered by OpenAI API + Python.
 Mobile health app with **500k+ downloads**.  
 - Built in Android Java  
 - Partnership with Harvard Medical School for medical content  
-- [Archived repo link](#)  
+- [Archived repo link](https://github.com/antonyevans/VirtualNurse)  
 
 ---
 
