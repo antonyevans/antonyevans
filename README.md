@@ -19,7 +19,7 @@ LLM agent that watches influencer videos, generates scripts, and reposts content
 Autonomous posting bot powered by OpenAI API + Python.  
 - Designed for continuous engagement with minimal manual input  
 - Demonstrates prompt chaining + agent orchestration  
-- [Repo link](#)  
+- [See it live](https://x.com/wildearthpets)  
 
 ### [Android Symptom Checker](#)
 Mobile health app with **500k+ downloads**.  
@@ -30,7 +30,7 @@ Mobile health app with **500k+ downloads**.
 ---
 
 ## 🛠️ Technical Skills
-- **Programming & AI:** Python (pandas, numpy), SQL/BigQuery, Javascript (basic), Ruby on Rails (prototype), VBA  
+- **Programming & AI:** Python (data analysis, AI Agents), SQL/BigQuery, Javascript (basic), Ruby on Rails (prototype), VBA  
 - **AI/ML Tools:** OpenAI API, LangChain, LLM agents, prompt engineering, RAG pipelines  
 - **Data & Analytics:** Excel (financial modeling, Monte Carlo), Tableau, Looker Studio, Power BI  
 - **Systems & Ops:** NetSuite, Katana, Cin7, QuickBooks, Brex; ERP/finance integrations  
