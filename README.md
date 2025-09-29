@@ -9,12 +9,13 @@ I’m currently focused on **AI engineering** — building LLM-powered agents, a
 
 ## 🚀 Featured Projects
 
+<!--
 ### [Influencer Bot](#)
 LLM agent that watches influencer videos, generates scripts, and reposts content in new formats.  
 - **Stack:** Python, OpenAI API,  Tiktok scraping  
 - Automates transcription → summarization → script generation → publishing  
 - *Repo coming soon — ask me for a demo!*
-
+-->
 ### [Twitter Bot](#)
 Autonomous posting bot powered by OpenAI API + Python.  
 - Designed for continuous engagement with minimal manual input  
