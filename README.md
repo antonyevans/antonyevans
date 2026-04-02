@@ -3,19 +3,19 @@
 Entrepreneurial COO & YC-backed founder, now building at the intersection of **AI, data, and operations**.  
 I combine a background in mathematics (Cambridge) and startup leadership (INSEAD MBA, YC, Bain/Oliver Wyman) with **hands-on coding** in Python, SQL, and AI agent frameworks.  
 
-I’m currently focused on **AI engineering** — building LLM-powered agents, automation tools, and data-driven systems.  
+I’m currently focused on **AI engineering** — building LLM-powered agents, automation tools, and data-driven systems for agentic commerce.  
 
 ---
 
 ## 🚀 Featured Projects
 
-<!--
-### [Influencer Bot](#)
-LLM agent that watches influencer videos, generates scripts, and reposts content in new formats.  
-- **Stack:** Python, OpenAI API,  Tiktok scraping  
-- Automates transcription → summarization → script generation → publishing  
-- *Repo coming soon — ask me for a demo!*
--->
+
+### [Weekly food plan](#)
+LLM agent skill that does your weekly grocery shopping for you.  
+- **Stack:** OpenClaw, Claude Code
+- Automates receipe generation, adding items to online cart and sends instructions to your phone 
+- [Try it out](https://github.com/antonyevans/weekly-food-plan)
+
 ### [Twitter Bot](#)
 Autonomous posting bot powered by OpenAI API + Python.  
 - Designed for continuous engagement with minimal manual input  
