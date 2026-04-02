@@ -1,49 +1,50 @@
-# 👋 Hi, I’m Antony Evans
+# Antony Evans
 
-Entrepreneurial COO & YC-backed founder, now building at the intersection of **AI, data, and operations**.  
-I combine a background in mathematics (Cambridge) and startup leadership (INSEAD MBA, YC, Bain/Oliver Wyman) with **hands-on coding** in Python, SQL, and AI agent frameworks.  
+Cambridge mathematician. YC-backed founder. Currently building at the **agentic commerce** layer — where AI agents shop, transact, and operate autonomously.
 
-I’m currently focused on **AI engineering** — building LLM-powered agents, automation tools, and data-driven systems for agentic commerce.  
-
----
-
-## 🚀 Featured Projects
-
-
-### [Weekly food plan](#)
-LLM agent skill that does your weekly grocery shopping for you.  
-- **Stack:** OpenClaw, Claude Code
-- Automates receipe generation, adding items to online cart and sends instructions to your phone 
-- [Try it out](https://github.com/antonyevans/weekly-food-plan)
-
-### [Twitter Bot](#)
-Autonomous posting bot powered by OpenAI API + Python.  
-- Designed for continuous engagement with minimal manual input  
-- Demonstrates prompt chaining + agent orchestration  
-- [See it live](https://x.com/wildearthpets)  
-
-### [Android Symptom Checker](#)
-Mobile health app with **500k+ downloads**.  
-- Built in Android Java  
-- Partnership with Harvard Medical School for medical content  
-- [Archived repo link](https://github.com/antonyevans/VirtualNurse)  
+Background: maths → strategy consulting (Oliver Wyman, Bain) → startups → COO. I've raised $42M in venture capital, scaled a company to $50M revenue, and shipped software used by 500k+ people. Now building the infrastructure layer for agent-native commerce.
 
 ---
 
-## 🛠️ Technical Skills
-- **Programming & AI:** Python (data analysis, AI Agents), SQL/BigQuery, Javascript (basic), Ruby on Rails (prototype), VBA  
-- **AI/ML Tools:** OpenAI API, LangChain, LLM agents, prompt engineering, RAG pipelines  
-- **Data & Analytics:** Excel (financial modeling, Monte Carlo), Tableau, Looker Studio, Power BI  
-- **Systems & Ops:** NetSuite, Katana, Cin7, QuickBooks, Brex; ERP/finance integrations  
-- **Automation & Collaboration:** Zapier, Notion AI, Git, Jupyter, VS Code, Anaconda  
+## 🔨 Active Projects
+
+### [shop-cli](https://github.com/antonyevans/shop-cli)
+**A shopping CLI built for AI agents, not humans.**
+
+Humans configure it once — budgets, approval thresholds, spending policy. Agents use it to shop autonomously. The core primitive is a *mandate*: a signed, revocable spending delegation that encodes purchase policy. Agents reference a mandate ID on every order; they never see payment credentials.
+
+- `pip install shop-cli` → `shop search "..." --output json`
+- Every command returns JSON. All mutations take `--idempotency-key`. Exit code 10 = escalated to human approval queue.
+- Stack: Python, Stripe Agent Toolkit, ACP protocol, CommerceTXT/Schema.org
+
+### [Agentic Grocery Shopping](https://github.com/antonyevans/weekly-food-plan)
+Multi-agent pipeline: Claude Code + MCP → recipe generation → cart population → phone notification. No human in the loop after the weekly trigger.
+
+### [AI Doctor App](https://github.com/antonyevans/VirtualNurse)
+Android symptom checker — **500k+ downloads**, medical content partnership with Harvard Medical School. Built in Java; still the highest-distribution thing I've shipped.
 
 ---
 
-## 📫 Let’s Connect
-- [LinkedIn](https://www.linkedin.com/in/antonyevans)  
-- [Twitter](https://twitter.com/antonyevans)  
-- Email: antonyevans@gmail.com  
+## ⚙️ Technical Stack
+
+**AI / Agents:** Python, Claude SDK (Anthropic), Claude Code, MCP (Model Context Protocol), multi-agent orchestration, LangChain, RAG pipelines, prompt engineering
+
+**Data:** SQL / BigQuery, Tableau, financial modeling (Excel/Python)
+
+**Infrastructure:** Git, Jupyter, VS Code, REST APIs, Stripe
 
 ---
 
-⭐️ I’m always learning, building, and sharing. Please don't hesitate to reach out and connect
+## 📍 Currently Building
+
+- **shop-cli** — agent-native shopping protocol (`pip install shop-cli`)
+- **Finch Toys** — DTC dropship store with agentic commerce infrastructure underneath
+- **Multi-agent executive OS** — Claude Code agent system managing strategy, content, and operations
+
+---
+
+## 📫 Connect
+
+- [LinkedIn](https://www.linkedin.com/in/antonyevans)
+- [X / Twitter](https://twitter.com/antonyevans)
+- antonyevans@gmail.com
