@@ -17,6 +17,14 @@ Humans configure it once — budgets, approval thresholds, spending policy. Agen
 - Every command returns JSON. All mutations take `--idempotency-key`. Exit code 10 = escalated to human approval queue.
 - Stack: Python, Stripe Agent Toolkit, ACP protocol, CommerceTXT/Schema.org
 
+### [Agent Engineer Master](https://agentengineermaster.com)
+**Production-ready Claude Code skills, on demand.**
+
+Submit a spec — get back a complete skill with SKILL.md, reference docs, evals, and scripts, built to the same standard as skills I run in production. The underlying skill architecture is open-source: a growing library of domain-specific skills covering marketing, product, legal, operations, and more.
+
+- [agentengineermaster.com](https://agentengineermaster.com) — order a custom skill
+- [Agent-Engineer-Master/skill-engineer](https://github.com/Agent-Engineer-Master/skill-engineer) — open-source skill library
+
 ### [Agentic Grocery Shopping](https://github.com/antonyevans/weekly-food-plan)
 Multi-agent pipeline: Claude Code + MCP → recipe generation → cart population → phone notification. No human in the loop after the weekly trigger.
 
@@ -39,7 +47,7 @@ Android symptom checker — **500k+ downloads**, medical content partnership wit
 
 - **shop-cli** — agent-native shopping protocol (`pip install shop-cli`)
 - **Finch Toys** — DTC dropship store with agentic commerce infrastructure underneath
-- **Multi-agent executive OS** — Claude Code agent system managing strategy, content, and operations
+- **Agent Engineer Master** — skill-as-a-service platform for Claude Code ([agentengineermaster.com](https://agentengineermaster.com))
 
 ---
 
