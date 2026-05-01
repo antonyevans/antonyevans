@@ -13,9 +13,9 @@ Background: maths → strategy consulting (Oliver Wyman, Bain) → startups → 
 
 Humans configure it once — budgets, approval thresholds, spending policy. Agents use it to shop autonomously. The core primitive is a *mandate*: a signed, revocable spending delegation that encodes purchase policy. Agents reference a mandate ID on every order; they never see payment credentials.
 
-- `pip install shop-cli` → `shop search "..." --output json`
-- Every command returns JSON. All mutations take `--idempotency-key`. Exit code 10 = escalated to human approval queue.
-- Stack: Python, Stripe Agent Toolkit, ACP protocol, CommerceTXT/Schema.org
+- `git clone https://github.com/antonyevans/shop-cli && pip install -e shop-cli/`
+- Every command returns JSON. All mutations take `--idempotency-key`. Semantic exit codes — agents branch on `3` (mandate violation), `5` (low confidence), `6` (retry-safe network error).
+- Stack: Python 3.12, typer, pydantic v2, httpx (async), Ed25519 mandate signing, SQLite
 
 ### [Agent Engineer Master](https://agentengineermaster.com)
 **Production-ready Claude Code skills, on demand.**
@@ -45,7 +45,7 @@ Android symptom checker — **500k+ downloads**, medical content partnership wit
 
 ## 📍 Currently Building
 
-- **shop-cli** — agent-native shopping protocol (`pip install shop-cli`)
+- **shop-cli** — agent-native shopping protocol ([github.com/antonyevans/shop-cli](https://github.com/antonyevans/shop-cli), alpha)
 - **Finch Toys** — DTC dropship store with agentic commerce infrastructure underneath
 - **Agent Engineer Master** — skill-as-a-service platform for Claude Code ([agentengineermaster.com](https://agentengineermaster.com))
 
